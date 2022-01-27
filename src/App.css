@@ -1,3 +1,37 @@
 .App {
-  text-align: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-section {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  color: #ffffff;
+  font-size: 5.8rem;
+  letter-spacing: .2rem;
+}
+
+.check-mark {
+  padding: 1rem 5rem 1rem 0;
+}
+
+.todos-section {
+  width: 50%;
+}
+
+.todos-container {
+  margin: auto;
+  max-width: 70%;
+  min-height: 80vh;
+  background-color: #ffffff;
+  border-radius: 20px;
 }
