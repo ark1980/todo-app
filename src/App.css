@@ -34,4 +34,25 @@
   min-height: 80vh;
   background-color: #ffffff;
   border-radius: 20px;
+  padding: 3rem 2rem;
+}
+
+.todos-header h2 {
+  font-size: 42px;
+  font-weight: bold;
+  color: #90BCE3;
+}
+
+.todos-header p {
+  font-size: 14px;
+  color: #838383;
+  padding-top: .4rem;
+} 
+
+.todos-body {
+  padding: 2.5rem 0;
+}
+
+.todos-body-title {
+  display: flxe;
 }
