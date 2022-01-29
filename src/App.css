@@ -54,5 +54,35 @@
 }
 
 .todos-body-title {
-  display: flxe;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: .5rem;
+}
+
+.date {
+  text-align: center;
+  font-size: .8rem;
+}
+
+.search {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+}
+
+.search-icon {
+  position: absolute;
+  margin: 0.4rem 0 0 0.4rem
+}
+
+.search-field {
+  width:100%;
+  padding: .7rem .7rem .7rem 2.3rem;
+  margin: .9rem 0;
+  background: #FFFFFF;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 7px;
+  border: none;
 }
